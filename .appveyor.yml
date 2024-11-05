@@ -1,10 +1,10 @@
-environment:
-  nodejs_version: "18"
+image: Ubuntu1804
+stack: node 12
 
 branches:
   only:
-    - master  # ветка git
-    - main
+    - main  # ветка git
+    
 
 cache: node_modules  # кеширование
 
